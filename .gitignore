@@ -1,0 +1,32 @@
+# === Java build ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# === Maven ===
+target/
+
+# === Gradle ===
+.gradle/
+build/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === VS Code (just in case) ===
+.vscode/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Environment files ===
+.env
