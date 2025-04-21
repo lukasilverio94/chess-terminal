@@ -40,4 +40,10 @@ public class Board {
         return pieces[position.getRow()][position.getColumn()];
     }
 
+    // Place pieces
+    public void placePiece(Piece piece, Position position){
+        pieces[position.getRow()][position.getColumn()] = piece;
+        // now the position is not on null position anymore, so:
+        piece.position = position; // accessible directly because is private field
+    }
 }
