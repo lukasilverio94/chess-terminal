@@ -15,7 +15,7 @@ public class Piece {
     }
 
     // PROTECTED because:
-    // Only class on same package or subclases that will be allowed to access the Boarder's piece
+    // Only class on same package or subclasses that will be allowed to access the Boarder's piece
     protected Board getBoard() {
         return board;
     }

@@ -27,4 +27,17 @@ public class Board {
     public void setColumns(int columns) {
         this.columns = columns;
     }
+
+    // NO SET BOARD, we don't want set the Board, read-only
+
+    // return the piece given the row and column
+    public Piece piece(int row, int column){
+        return pieces[row][column];
+    }
+
+    // Overloading (sobrecarga)
+    public Piece piece(Position position){
+        return pieces[position.getRow()][position.getColumn()];
+    }
+
 }
