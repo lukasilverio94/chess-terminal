@@ -25,8 +25,8 @@ out/
 .DS_Store
 Thumbs.db
 
-# === Logs ===
-*.log
-
 # === Environment files ===
 .env
+
+
+compile.sh
