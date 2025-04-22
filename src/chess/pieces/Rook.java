@@ -15,4 +15,11 @@ public class Rook extends ChessPiece {
     public String toString(){
         return "R"; // On the position that this piece appears, it will be represented as "R" on terminal
     }
+
+    @Override
+    public boolean[][] possibleMoves() {
+        // todo: improve this later
+        boolean[][] matrix = new boolean[getBoard().getRows()][getBoard().getColumns()];
+        return matrix;
+    }
 }
