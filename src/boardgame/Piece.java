@@ -6,7 +6,7 @@ public abstract class Piece {
     // just a simple matrix position, we don't want this position be visible on the Chess layer
     protected Position position;
 
-    private Board board;
+    private final Board board;
 
     public Piece(Board board) {
         this.board = board;
